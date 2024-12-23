@@ -7,7 +7,7 @@ public class AnotToString {
     int age;
 
     public void start() {
-        System.out.println("Поле name аннотировано @ToString! Значение: " + name);
-        System.out.println("Поле age аннотировано @ToString! Значение: " + age);
+        System.out.println("@ToString определяет, должны ли поля быть включены в метод toString() \nПоле name аннотировано @ToString. Значение: " + name);
+        System.out.println("Поле age аннотировано @ToString. Значение: " + age);
     }
 }
