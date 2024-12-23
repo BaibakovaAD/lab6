@@ -6,6 +6,6 @@ public class AnotDefault {
     String field;
 
     public void start() {
-        System.out.println("Поле field аннотировано @Default! Значение: " + field);
+        System.out.println("Поле field аннотировано @Default. \n@Default Задает значение по умолчанию для класса или поля. Значение: " + field);
     }
 }
