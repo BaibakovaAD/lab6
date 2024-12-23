@@ -16,7 +16,6 @@ public class Main {
 
         AnotToString ex23 = new AnotToString();
         ex23.start();
-        System.out.println(ex23);
 
         System.out.print("\n");
 
